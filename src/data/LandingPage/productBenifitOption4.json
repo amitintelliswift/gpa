@@ -1,0 +1,34 @@
+{
+    "default": [
+        {
+            "productFeatures": "Hospital Daily Cash Benifit",
+            "days":"7000 x 30 Days",
+            "sumInsured":"210000"
+        },
+        {
+            "productFeatures": "Accidental Daily Cash Benefit",
+            "days":"15000 x 30 Days",
+            "sumInsured":"450000"
+        },
+        {
+            "productFeatures": "ICU Daily Cash Benifit",
+            "days":"15000 x 30 Days",
+            "sumInsured":"450000"
+        }
+    ],
+    "additional": [
+        {
+            "productFeatures": "Convalescence Benefit",
+            "days":"10000 x 1 per year",
+            "sumInsured":"10000"
+        },
+        {
+            "productFeatures": "Surgery Benefit",
+            "days":"7000 x 1 per year",
+            "sumInsured":"7000"
+        }
+    ],
+    "sumInsured": "Up to Rs 734000",
+    "TotalPremiumTitle":"Total Premium (Excluding Taxes)",
+    "TotalPremiumValue":"4000"
+}

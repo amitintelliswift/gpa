@@ -1,0 +1,749 @@
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: #f2f2f2;
+  }
+  .main {
+    background-color: #f2f2f2;
+  }
+  .bannerSecton {
+    height: 260px;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .bannerSecton img.bannerImage1 {
+    display: none;
+  }
+  @media only screen and (max-width: 767px) {
+    .bannerSecton img.bannerImage {
+      display: none;
+    }
+  }
+  
+  @media only screen and (max-width: 767px) {
+    .infoText {
+      display: none;
+    }
+  }
+  @media only screen and (max-width: 767px) {
+    .bannerSecton img.bannerImage1 {
+      display: block;
+    }
+  }
+  .bannerSecton img.bannerImage {
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    object-position: top;
+    width: 100%;
+    height: 100%;
+  }
+  .bannerSecton img.bannerImage1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    object-position: top;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .bannerSecton .bannerContent {
+    position: relative;
+    z-index: 1;
+    height: 260px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  
+  .bannerSecton .bannerContent h1 {
+    color: #ffffff;
+    text-transform: capitalize;
+    font-size: 36px;
+    line-height: 46px;
+    font-weight: normal;
+    width: 81%;
+  }
+  
+  .bannerSecton .bannerContent h1 span {
+    display: block;
+  }
+  
+  .bannerSecton .logo {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    margin-top: 15px;
+    overflow: hidden;
+  }
+  
+  .bannerSecton .logo img {
+    height: 55px;
+    width: auto;
+  }
+  
+  /* Main Menu */
+  .mainNav {
+    background: #ee1c25;
+    height: 50px;
+    position: relative;
+  }
+  
+  .mainNav .menuText {
+    color: #ffffff;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 50px;
+    font-size: 18px;
+  }
+  
+  .mainNav .infoList {
+    height: 50px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .mainNav .infoList li {
+    list-style-type: none;
+    color: #ffffff;
+    font-size: 15px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  
+  .mainNav .infoList li img {
+    height: 12px;
+  }
+  
+  .mainNav .infoList li span {
+    margin-left: 10px;
+  }
+  
+  /* SMART CARDS */
+  .smartCash {
+    position: relative;
+    padding: 15px 0;
+  }
+  
+  .cardShadow {
+    box-shadow: 0 0 5px rgb(0 0 0 / 20%);
+    background-color: rgb(255 255 255);
+    margin: 20px;
+    border: 1px solid #f0ebeb;
+    border-radius: 3px;
+  }
+  
+  .smartCash .smartLeftContent {
+    min-height: 160px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0 10px;
+    border-right: 2px solid #efefef;
+  }
+  
+  .smartCash .smartLeftContent .logoWrap {
+    overflow: hidden;
+    width: 20%;
+  }
+  
+  .smartCash .smartLeftContent .logoWrap img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+  
+  .smartCash .smartLeftContent .smartcashText {
+    margin-left: 20px;
+    width: 72%;
+  }
+  
+  .smartCash .smartLeftContent .smartcashText .heading {
+    color: #101010;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .smartCash .smartLeftContent .smartcashText .optionInfo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .smartCash .smartLeftContent .smartcashText .optionInfo .options {
+    letter-spacing: 0px;
+    color: #101010;
+    opacity: 1;
+    font-size: 13px;
+    margin-bottom: 20px;
+  }
+  
+  .smartCash .smartLeftContent .smartcashText .optionInfo .options span {
+    margin-left: 8px;
+  }
+  
+  .smartCash .smartLeftContent .smartcashText .planDetail {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 5px;
+  }
+  
+  .plandetailBtn {
+    cursor: pointer;
+    outline: none;
+    border: 0;
+    background: transparent;
+    padding: 0;
+    margin: 0;
+    font-size: 13px;
+    font-weight: bold;
+    text-decoration: underline;
+    color: #6f6f6f;
+    font-weight: normal;
+  }
+  .smartCash .smartRightContent .heading {
+    color: #101010;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .smartCash .smartRightContent .infoText {
+    letter-spacing: 0px;
+    color: #101010;
+    opacity: 1;
+    font-size: 13px;
+    margin-bottom: 20px;
+  }
+  
+  .smartCash .smartRightContent .clickableWrapper {
+    padding-bottom: 15px;
+    overflow-x: scroll;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  
+  .clickableButton {
+    border: 2px solid #cfcfcf;
+    border-radius: 3px;
+    outline: none;
+    cursor: pointer;
+    background-color: #ffffff;
+    height: 83px;
+    width: 151px;
+    display: block;
+    padding: 10px 15px;
+    margin-right: 15px;
+    flex-basis: 151px;
+    flex-grow: 1;
+    flex-shrink: 0;
+    text-align: left;
+  }
+  
+  .clickableButton.active {
+    border: 2px solid #ee1c25;
+  }
+  .smartCash .smartRightContent .clickableWrapper .clickableButton:last-child {
+    margin-right: 0;
+  }
+  
+  .clickableButton span {
+    display: block;
+    font-size: 14px;
+  }
+  
+  .clickableButton span.optionText {
+    font-weight: bold;
+    font-size: 16px;
+    letter-spacing: 0px;
+    color: #101010;
+    opacity: 1;
+  }
+  .clickableButton span.premiumText {
+    /* font-size: 15px; */
+    letter-spacing: 0px;
+    color: #101010;
+    opacity: 1;
+  }
+  .clickableButton span.savetext {
+    font-size: 12px;
+    letter-spacing: 0px;
+    color: #ee1c25;
+    opacity: 1;
+  }
+  .clickableButton span.premiumText strong {
+    font-weight: bold;
+    font-size: 16px;
+    letter-spacing: 0px;
+    color: #101010;
+    opacity: 1;
+  }
+  
+  .smartCash .smartRightContent .clickableWrapper::-webkit-scrollbar {
+    width: 0px;
+    height: 4px;
+  }
+  
+  .smartCash .smartRightContent .clickableWrapper::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.3);
+  }
+  
+  .smartCash .smartRightContent .clickableWrapper::-webkit-scrollbar-thumb {
+    background-color: #dc1736;
+    outline: 1px solid #ccc;
+    height: 5px;
+    border-radius: 13px;
+  }
+  
+  /* PRODUCT BENEFITS */
+  .productBenefits {
+    position: relative;
+    padding: 15px 0;
+    min-height: 200px;
+  }
+  
+  .productBenefits .leftContent {
+    border-right: 2px solid #efefef;
+    padding: 0 34px;
+  }
+  .productBenefits .leftContent img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    object-position: top;
+  }
+  .productBenefits .leftContent .botText {
+    text-transform: capitalize;
+    text-align: center;
+    padding: 0 34px;
+    margin-top: 20px;
+    font-size: 13px;
+    color: #101010;
+    line-height: 20px;
+  }
+  
+  .productBenefits .rightContent {
+    position: relative;
+  }
+  .heading1 {
+    margin-top: 9px;
+    /* left: 63px; */
+    /* width: 427px; */
+    font-size: 15px;
+    height: 9px;
+    /* font: var(--unnamed-font-style-normal) normal bold var(--unnamed-font-size-15)/var(--unnamed-line-spacing-18) var(--unnamed-font-family-roboto); */
+    /* letter-spacing: var(--unnamed-character-spacing-0); */
+    /* color: var(--unnamed-color-101010); */
+    text-align: center;
+    font: normal normal bold 15px/18px Roboto;
+    /* letter-spacing: 0px; */
+    color: #101010;
+    opacity: 1;
+  }
+  .productBenefits .rightContent .heading {
+    color: #101010;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .productBenefits .benifitTable table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .productBenefits .benifitTable td {
+    border-top: 1px solid #dddddd;
+    padding: 8px;
+    height: 40px;
+    letter-spacing: 0px;
+    color: #101010;
+    opacity: 1;
+    font-size: 15px;
+  }
+  .productBenefits .benifitTable th {
+    border-top: 1px solid #dddddd;
+    padding: 8px;
+    height: 40px;
+    font-size: 15px;
+    font-weight: bold;
+  }
+  .productBenefits .benifitTable th:last-child {
+    text-align: right;
+  }
+  
+  .productBenefits .benifitTable tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  .productBenefits .benifitTable tfoot tr.sumInsured td {
+    color: #101010;
+    font-weight: bold;
+    font-size: 15px;
+  }
+  
+  .productBenefits .benifitTable tfoot tr.totalPremium td {
+    color: #ee1c25;
+    background: #f2f2f2 0% 0% no-repeat padding-box;
+    font-weight: bold;
+    font-size: 15px;
+  }
+  .productBenefits .benifitTable table tr.additonalFeatures td {
+    color: #101010;
+    background: #ffffff;
+    font-weight: bold;
+    font-size: 14px;
+  }
+  .productBenefits .benifitTable table tr.additonalFeatures td span {
+    margin-left: 10px;
+  }
+  .productBenefits .benifitTable table tr.additonalFeatures td svg {
+    position: relative;
+    top: -2px;
+  }
+  .productBenefits .conformWrap {
+    margin-top: 20px;
+  }
+  .productBenefits .conformWrap .conformText {
+    font-size: 13px;
+    color: #101010;
+    line-height: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .productBenefits .conformWrap .conformText input[type="checkbox"] {
+    position: relative;
+    top: 3px;
+  }
+  .productBenefits .conformWrap .conformText span {
+    margin-left: 13px;
+  }
+  .productBenefits .buttonWrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  .productBenefits .buttonWrap a {
+    text-decoration: none;
+    outline: none;
+  }
+  .productBenefits .buttonWrap a:hover {
+    text-decoration: none;
+  }
+  .btnConfirm {
+    background-color: #ee1c25;
+    border: 1px solid #ee1c25;
+    outline: none;
+    border-radius: 3px;
+    width: 117px;
+    font-size: 14px;
+    font-weight: bold;
+    height: 41px;
+    color: #ffffff;
+    text-transform: capitalize;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+  }
+  .btnConfirm:hover {
+    background-color: #d31820;
+    border: 1px solid #d31820;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+  }
+  
+  /* Plan Details */
+  .planDetails {
+    position: relative;
+    min-height: 100px;
+    padding: 15px 0;
+  }
+  .planDetails .heading {
+    color: #101010;
+    font-size: 18px;
+    text-transform: capitalize;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  .planDetails .planTabsWrap .tabs .tab {
+    outline: none;
+    margin: 0;
+    padding: 0;
+    background: transparent;
+    border: 0;
+    letter-spacing: 0px;
+    opacity: 1;
+    color: #101010;
+    font-weight: bold;
+    position: relative;
+    padding: 10px 0;
+    border-bottom: 3px solid transparent;
+    margin-right: 40px;
+    font-size: 15px;
+  }
+  .planDetails .planTabsWrap .tabs .tab.hadDropdown .dropDown {
+    margin: 0;
+    background: #ffffff;
+    box-shadow: 0px 1px 8px #00000054;
+    border-radius: 2px;
+    opacity: 1;
+    position: absolute;
+    width: 280px;
+    padding: 10px;
+    top: 100%;
+    left: 0;
+  }
+  .planDetails .planTabsWrap .tabs .tab.hadDropdown .dropDown li {
+    list-style-type: none;
+  }
+  .planDetails .planTabsWrap .tabs .tab.hadDropdown .dropDown li button {
+    padding: 0;
+    margin: 0;
+    outline: none;
+    background: transparent;
+    border: 0;
+    display: block;
+    letter-spacing: 0px;
+    color: #6f6f6f;
+    opacity: 1;
+    font-size: 14px;
+    padding: 10px 0px;
+    cursor: pointer;
+  }
+  .planDetails .planTabsWrap .tabs .tab.hadDropdown .dropDown li button:hover {
+    color: #010101;
+  }
+  .planDetails .planTabsWrap .tabs .tab:last-child {
+    margin-right: 0;
+  }
+  .planDetails .planTabsWrap .tabs .tab:after {
+    content: "";
+  }
+  .planDetails .planTabsWrap .tabs .tab.active {
+    color: #0070e0;
+    border-bottom: 3px solid #0070e0;
+  }
+  .planDetails .planTabsWrap .tabContent {
+    margin-top: 20px;
+  }
+  .planDetails .planTabsWrap .tabContent .tabPane ul {
+    margin: 0;
+    padding: 0 0 0 15px;
+  }
+  .planDetails .planTabsWrap .tabContent .tabPane ul li {
+    letter-spacing: 0px;
+    color: #010101;
+    opacity: 1;
+    font-size: 14px;
+    line-height: 35px;
+  }
+  .iconButton {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background: transparent;
+    cursor: pointer;
+  }
+  .rotateIcon {
+    transform: rotate(90deg);
+  }
+  .isMobile {
+    display: none;
+  }
+  .deskTop {
+    display: block;
+  }
+  
+  /* MEDIA QUERY */
+  @media only screen and (max-width: 991px) {
+  }
+  
+  @media only screen and (max-width: 767px) {
+    .tabs.isMobile {
+      display: block !important;
+      overflow-x: hidden !important;
+    }
+    .tabs.deskTop {
+      display: none !important;
+    }
+    .bannerSecton {
+      height: 224px;
+    }
+    .bannerSecton .bannerContent h1 {
+      color: #ffffff;
+      font-size: 22px;
+      line-height: 30px;
+      font-weight: bold;
+      width: 62%;
+    }
+    .mainNav .infoList {
+      display: none;
+    }
+    .mainNav .menuText {
+      justify-content: center;
+      align-items: center;
+      font-size: 16px;
+      line-height: 19px;
+    }
+    .smartCash .smartLeftContent .smartcashText {
+      margin-left: 0;
+    }
+    .smartCash .smartLeftContent .smartcashText .optionInfo {
+      display: flex;
+      justify-content: flex-start;
+      align-items: flex-start;
+      flex-wrap: wrap;
+      flex-direction: column;
+    }
+    .smartCash .smartLeftContent .smartcashText .optionInfo .options {
+      margin-bottom: 5px;
+    }
+    .smartCash .smartLeftContent .smartcashText .optionInfo .options:last-child {
+      margin-bottom: 0;
+    }
+    .smartCash .smartLeftContent .smartcashText .planDetail {
+      margin-top: 5px;
+    }
+    .smartCash .smartLeftContent .smartcashText .heading {
+      margin-bottom: 5px;
+    }
+    .smartCash .smartLeftContent {
+      min-height: 118px;
+      padding: 0;
+      border-right: 0;
+    }
+    .productBenefits .leftContent {
+      display: none;
+    }
+    .productBenefits .benifitTable td {
+      font-size: 12px;
+      height: 45px;
+    }
+    .productBenefits .benifitTable table tr.additonalFeatures td {
+      font-size: 12px;
+    }
+    .productBenefits .benifitTable tfoot tr.sumInsured td {
+      font-size: 12px;
+    }
+    .productBenefits .benifitTable tfoot tr.totalPremium td {
+      font-size: 12px;
+    }
+    .productBenefits .conformWrap .conformText {
+      font-size: 12px;
+    }
+    .planDetails .planTabsWrap .tabs {
+      overflow-x: scroll;
+      display: flex;
+    }
+    .planDetails .planTabsWrap .tabs::-webkit-scrollbar {
+      width: 0px;
+      height: 4px;
+    }
+  
+    .planDetails .planTabsWrap .tabs::-webkit-scrollbar-track {
+      box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.3);
+    }
+  
+    .planDetails .planTabsWrap .tabs::-webkit-scrollbar-thumb {
+      background-color: #ee1c25;
+      outline: 1px solid #e6e6e6;
+      height: 5px;
+    }
+    .planDetails .planTabsWrap .tabs .tab {
+      flex-grow: 1;
+      flex-shrink: 0;
+      text-align: left;
+      font-size: 15px;
+    }
+    .planDetails .planTabsWrap .tabs {
+      padding-bottom: 15px;
+    }
+    .planDetails .planTabsWrap .tabContent .tabPane ul li {
+      font-size: 12px;
+      line-height: 25px;
+    }
+    .smartCash .smartLeftContent .logoWrap {
+      width: 110px;
+    }
+    .bannerSecton .logo {
+      position: absolute;
+      top: 15px;
+      right: 15px;
+    }
+    .bannerSecton .logo img {
+      height: 45px;
+    }
+    .smartCash .smartLeftContent .logoWrap img {
+      height: 94px;
+      width: 94px;
+    }
+  }
+  
+  @media only screen and (max-width: 551px) {
+  }
+  
+  @media only screen and (max-width: 480px) {
+  }
+  
+  .loader {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.834);
+  
+    /* z-index: 1; */
+  }
+  
+  .text {
+    position: absolute;
+    top: 63%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  
+    color: white;
+  
+    text-align: center;
+    
+  }
+  @media only screen and (max-width: 767px) {
+    .text {
+      position: absolute;
+      top: 90%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+  
+      color: white;
+  
+      text-align: center;
+    }
+  }
+  @keyframes spin-anim {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  

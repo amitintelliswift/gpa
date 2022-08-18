@@ -1,0 +1,952 @@
+.journeyTitle {
+    font-size: 38px;
+    font-weight: normal;
+    letter-spacing: 0px;
+    color: #101010;
+    text-transform: capitalize;
+    opacity: 1;
+    text-align: center;
+}
+
+.backWrap a {
+    text-decoration: none;
+}
+
+.backWrap a:hover {
+    text-decoration: none;
+}
+
+.backButton {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    border: 0;
+    background: transparent;
+    cursor: pointer;
+    letter-spacing: 0.42px;
+    color: #707070;
+    opacity: 1;
+    font-size: 15px;
+    display: inline-flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.backButton img {
+    margin-right: 5px;
+    height: 14px;
+}
+
+.journeyWrapper {
+    padding: 20px 0;
+    position: relative;
+}
+
+.accordianWrapper {
+    margin-top: 15px;
+}
+
+.premiumDetails {
+    background-color: #F2F2F2;
+    min-height: 48px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15px;
+}
+
+.premiumDetails .sumInsuredTab {
+    letter-spacing: 0px;
+    color: #101010;
+    opacity: 1;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.redText {
+    color: #EE1C25;
+    margin-left: 10px;
+    font-weight: 700;
+}
+
+.premiumDetails .sumInsuredTab .redText {
+    color: #EE1C25;
+    margin-left: 10px;
+}
+
+
+.marginBot15 {
+    margin-bottom: 15px;
+}
+
+.fieldWrap [class*='col-'] {
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.whiteCard {
+    min-height: 100px;
+    box-shadow: 0px 2px 1px -1px rgb(0 0 0 / 20%), 0px 1px 1px 0px rgb(0 0 0 / 14%), 0px 1px 3px 0px rgb(0 0 0 / 12%);
+    position: relative;
+    transition: margin 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    overflow-anchor: none;
+    border-radius: 3px;
+    background-color: #fff;
+    margin-top: 10px;
+    padding: 15px;
+}
+
+.grayBar {
+    background-color: #F2F2F2;
+    min-height: 48px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 16px;
+}
+
+.whiteCard .reffWrap {
+    margin-top: 15px;
+}
+
+.whiteCard .btnWrap {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.whiteCard .btnWrap a {
+    text-decoration: none;
+}
+
+.whiteCard .btnWrap a:hover {
+    text-decoration: none;
+}
+
+.btnProceed {
+    width: 118px;
+    height: 41px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #EE1C25;
+    box-shadow: 0px 2px 1px #0000001F;
+    border-radius: 3px;
+    opacity: 1;
+    margin: 0;
+    padding: 0;
+    outline: none;
+    letter-spacing: 0.39px;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 14px;
+    text-decoration: none;
+    border: 1px solid #EE1C25;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.btnProceed:hover {
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    background-color: #D31820;
+    border: 1px solid #D31820;
+}
+
+.btnDisabled {
+    opacity: 0.4;
+}
+
+.btnProceed[disabled] {
+    opacity: 0.4;
+}
+
+.btnProceed[disabled]:hover {
+    opacity: 0.4;
+}
+
+.optionWrap {
+    margin-left: 16px;
+}
+
+.optionWrap .btnSelf {
+    background-color: #F2F2F2;
+    padding: 0;
+    margin: 0;
+    border: 1px solid #EE1C25;
+    border-radius: 3px;
+    opacity: 1;
+    letter-spacing: 0.39px;
+    color: #EE1C25;
+    font-size: 14px;
+    font-weight: bold;
+    width: 107px;
+    height: 41px;
+    outline: none;
+}
+
+.optionWrap .btnHidden {
+    display: none;
+}
+
+.optionWrap .btnSelected {
+    background-color: #EE1C25;
+    color: #FFFFFF;
+}
+
+.optionWrap button:first-child {
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.optionWrap button:last-child {
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+}
+
+
+/* Add On Card */
+.addOnCard {
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.addOnCard .heading {
+    letter-spacing: 0px;
+    color: #101010;
+    text-transform: capitalize;
+    opacity: 1;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.formBoxFlexs {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.formBox .MuiTypography-root {
+    font-size: 13px;
+}
+
+.relationBox {
+    margin-bottom: 30px;
+}
+
+
+.familyRelation {
+    position: relative;
+}
+
+.familyRelation .memberWrap {
+    height: 280px;
+    overflow-y: scroll;
+    margin-right: 15px;
+}
+
+.familyRelation .memberWrap::-webkit-scrollbar {
+    width: 5px;
+    height: 0px;
+
+}
+
+.familyRelation .memberWrap::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.3);
+}
+
+.familyRelation .memberWrap::-webkit-scrollbar-thumb {
+    background-color: #DC1736;
+    outline: 1px solid #ccc;
+    height: 5px;
+    border-radius: 13px;
+}
+
+.memberWrap button {
+    margin-bottom: 15px;
+}
+
+.memberWrap button:last-child {
+    margin-bottom: 0;
+}
+
+.memberWrap .btnTab {
+    width: 176px;
+    height: 48px;
+    background-color: #FFFFFF;
+    border: 2px solid #EE1C25;
+    border-radius: 3px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+    letter-spacing: 0px;
+    color: #101010;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.memberWrap .btnTab .icon {
+    background-color: rgba(205, 232, 211, 1);
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+}
+
+.memberWrap .btnTab .icon svg {
+    height: 18px;
+}
+
+.memberWrap .btnTab .icon.disabledIcon {
+    background-color: rgba(205, 232, 211, 0.5);
+}
+
+.memberWrap .btnTab.disabled {
+    border-color: #CFCFCF;
+}
+
+.memberWrap .btnTab.disabled>.icon {
+    opacity: 0.3;
+}
+
+
+.memberContent .mTabcontent {
+    margin-bottom: 15px;
+}
+
+.memberContent .mTabcontent:last-child {
+    margin-bottom: 0px;
+}
+
+.relTitle {
+    letter-spacing: 0px;
+    color: #101010;
+    text-transform: capitalize;
+    opacity: 1;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.fieldGroup {
+    margin-bottom: 15px;
+}
+
+.nomineeRightBlock .benifitTable {
+    height: 250px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.benifitTable table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.benifitTable td {
+    border-top: 1px solid #dddddd;
+    padding: 2px 8px;
+    height: 40px;
+    letter-spacing: 0px;
+    color: #101010;
+    opacity: 1;
+    font-size: 15px;
+}
+
+.benifitTable th {
+    border-top: 1px solid #dddddd;
+    padding: 8px;
+    height: 40px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.benifitTable th:last-child {
+    text-align: left;
+}
+
+.benifitTable tbody tr:nth-child(odd) {
+    background-color: #F2F2F2;
+}
+
+.benifitTable tfoot tr.sumInsuredTab td {
+    color: #101010;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.benifitTable tfoot tr.totalPremium td {
+    color: #EE1C25;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.benifitTable table tr.additonalFeatures td {
+    color: #101010;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.benifitTable table tr.additonalFeatures td span {
+    margin-left: 10px;
+}
+
+.benifitTable table tr.additonalFeatures td svg {
+    position: relative;
+    top: -2px;
+}
+
+.nomineeRightBlock {
+    border-left: 1px solid #F2F2F2;
+    padding-left: 20px;
+}
+
+.nomineeDetails {
+    margin-bottom: 30px;
+}
+
+/* Premium */
+.PremiumDetails {
+    margin-bottom: 15px;
+}
+
+.premiumTable table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.premiumTable td {
+    border-top: 1px solid #dddddd;
+    padding: 2px 8px;
+    height: 40px;
+    letter-spacing: 0px;
+    color: #101010;
+    opacity: 1;
+    font-size: 15px;
+}
+
+.premiumTable th {
+    border-top: 1px solid #dddddd;
+    padding: 8px;
+    height: 40px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.premiumTable th:last-child {
+    text-align: left;
+}
+
+.premiumTable tbody tr:nth-child(odd) {
+    background-color: #F2F2F2;
+}
+
+.premiumTable tbody tr td:first-child {
+    width: 75%;
+}
+
+.premiumTable tfoot tr.sumInsuredTab td {
+    color: #101010;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.premiumTable tfoot tr.totalPremium td {
+    color: #EE1C25;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.premiumTable table tr.additonalFeatures td {
+    color: #101010;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.premiumTable table tr.additonalFeatures td span {
+    margin-left: 10px;
+}
+
+.premiumTable table tr.additonalFeatures td svg {
+    position: relative;
+    top: -2px;
+}
+
+.premiumSummery {
+    background-color: #F2F2F2;
+    margin-bottom: 10px;
+}
+
+.premiumSummery table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.premiumSummery td {
+    /* border-top: 1px solid #dddddd; */
+    padding: 4px 8px;
+    height: 35px;
+    letter-spacing: 0px;
+    color: #101010;
+    opacity: 1;
+    font-size: 15px;
+}
+
+.premiumSummery th {
+    /* border-top: 1px solid #dddddd; */
+    padding: 4px 8px;
+    height: 40px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.premiumSummery th:last-child {
+    text-align: right;
+}
+
+.premiumSummery tbody tr:nth-child(odd) {
+    background-color: #F2F2F2;
+}
+
+.premiumSummery tbody tr td:last-child {
+    text-align: right;
+}
+
+.premiumSummery tfoot tr td:last-child {
+    text-align: right;
+}
+
+.premiumSummery tfoot tr.sumInsuredTab td {
+    color: #101010;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.premiumSummery tfoot tr.totalPremium td {
+    color: #EE1C25;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.premiumSummery table tr.additonalFeatures td {
+    color: #101010;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.premiumSummery table tr.additonalFeatures td span {
+    margin-left: 10px;
+}
+
+.premiumSummery table tr.additonalFeatures td svg {
+    position: relative;
+    top: -2px;
+}
+
+.termsWrap label {
+    margin: 0;
+}
+
+.termsWrap .termsText {
+    font-size: 13px;
+    letter-spacing: 0px;
+    color: #6F6F6F;
+    opacity: 1;
+}
+
+.termsWrap .termsText a {
+    font-size: 13px;
+    letter-spacing: 0px;
+    color: #6F6F6F;
+    opacity: 1;
+    text-decoration: underline;
+}
+.termsWrap .checkField {
+    position: relative;
+    top: 2px;
+    transform: scale(1.2);
+    margin-right: 10px;
+}
+
+/* Payment */
+.paymentSubText {
+    letter-spacing: 0px;
+    color: #101010;
+    opacity: 1;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+.paymentBox {
+    height: 88px;
+    /* width: 300px; */
+    min-width: 260px;
+    border: 2px solid #CFCFCF;
+    opacity: 1;
+    background-color: #ffffff;
+    border-radius: 3px;
+    padding: 0 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.paymentBox .pleft {
+    width: 80%;
+    text-align: left;
+}
+
+.paymentBox .pTitle {
+    letter-spacing: 0px;
+    color: #101010;
+    opacity: 1;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.paymentBox .pText {
+    letter-spacing: 0px;
+    color: #101010;
+    opacity: 1;
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.paymentBox .pright {
+    width: 20%;
+    text-align: right;
+}
+
+.paymentBox .pright svg {
+    color: #D4D2D2;
+    font-size: 32px;
+}
+
+.paymentBoxActive {
+    border-color: #EE1C25;
+}
+
+.paymentBoxActive .pright svg {
+    color: #EE1C25;
+}
+
+.paymentDetails .EmailBox {
+    padding-top: 20px;
+    border-top: 1px solid #ECECEC;
+    margin-top: 20px;
+}
+
+.paymentDetails button {
+    outline: none;
+    background: transparent;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+.paymentDetails .textinfo {
+    margin-top: 30px;
+}
+
+
+/* Thank you */
+.thankyouWrap {
+    text-align: center;
+}
+
+.thankTick {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.thankTick .outer {
+    background-color: #EBF3F6;
+    border: 2px solid #CCD8DC;
+    height: 75px;
+    width: 75px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.thankTick .outer .inner {
+    background-color: #DFEAED;
+    height: 60px;
+    width: 60px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.thankTick .outer .inner svg {
+    color: #E0121B;
+    font-size: 36px;
+}
+
+.thankyouText {
+    letter-spacing: 0px;
+    color: #101010;
+    text-transform: capitalize;
+    opacity: 1;
+    font-size: 38px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.thankyouInfo {
+    margin-bottom: 20px;
+}
+
+.thankyouInfo .MuiAlert-message {
+    font-size: 12px !important;
+    letter-spacing: 0 !important;
+    font-weight: 500;
+}
+
+.btnCancel {
+    width: 118px;
+    height: 41px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    border-radius: 3px;
+    opacity: 1;
+    margin: 0;
+    padding: 0;
+    outline: none;
+    letter-spacing: 0.39px;
+    color: #6F6F6F;
+    font-weight: normal;
+    font-size: 14px;
+    text-decoration: none;
+    border: 0;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.btnCancel:hover {
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    background-color: transparent;
+}
+
+
+.errorWrp {
+    color: #D31820;
+}
+
+
+.displayNone {
+    display: none;
+}
+
+
+/* Responsive */
+@media only screen and (max-width:991px) {
+    .optionWrap {
+        margin-left: 0;
+        margin-top: 15px;
+    }
+
+    .reffWrap .refInMargin {
+        margin-bottom: 15px;
+    }
+
+    .reffWrap .refInMargin:last-child {
+        margin-bottom: 0;
+    }
+
+    .paymentDetails button {
+        width: 100%;
+    }
+
+    .paymentBox {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+}
+
+@media only screen and (max-width:767px) {
+    .journeyTitle {
+        font-size: 22px;
+    }
+
+    .backWrap span {
+        display: none;
+    }
+
+    .backButton img {
+        height: 23px;
+    }
+
+    .backWrap {
+        position: absolute;
+        top: 22px;
+    }
+
+    .premiumDetails .sumInsuredTab {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .premiumDetails .sumInsuredTab .redText {
+        display: block;
+    }
+
+    .sumInsuredTab {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .grayBar {
+        justify-content: flex-start;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .optionWrap {
+        margin-left: 0;
+        margin-top: 15px;
+    }
+
+    .reffWrap .refInMargin {
+        margin-bottom: 15px;
+    }
+
+    .reffWrap .refInMargin:last-child {
+        margin-bottom: 0;
+    }
+
+    .relationBox [class*='col-'] {
+        margin-bottom: 15px;
+    }
+
+    .familyRelation .memberWrap {
+        height: auto;
+        overflow-y: hidden;
+        margin-right: 0;
+        width: 100%;
+        margin-bottom: 20px;
+        padding-bottom: 15px;
+        overflow-x: scroll;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    .memberWrap button {
+        margin-right: 10px;
+        margin-bottom: 0;
+    }
+
+    .memberWrap button:last-child {
+        margin-right: 0;
+    }
+
+    .memberWrap .btnTab {
+        flex-basis: 135px;
+        flex-grow: 1;
+        flex-shrink: 0;
+    }
+
+    .familyRelation .memberWrap::-webkit-scrollbar {
+        width: 0px;
+        height: 5px;
+
+    }
+
+    .familyRelation .memberWrap::-webkit-scrollbar-track {
+        box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.3);
+    }
+
+    .familyRelation .memberWrap::-webkit-scrollbar-thumb {
+        background-color: #DC1736;
+        outline: 1px solid #ccc;
+        height: 5px;
+        border-radius: 13px;
+    }
+
+    .benifitTable th {
+        font-size: 12px;
+    }
+
+    .benifitTable td {
+        font-size: 12px;
+    }
+
+    .benifitTable .MuiFilledInput-root {
+        font-size: 12px !important;
+    }
+
+    .accordianWrapper p.MuiTypography-root {
+        font-size: 16px;
+    }
+
+    .relTitle {
+        font-size: 16px;
+    }
+
+    .premiumTable th {
+        font-size: 12px;
+    }
+
+    .premiumTable td {
+        font-size: 12px;
+    }
+
+    .premiumRight {
+        margin-top: 20px;
+    }
+
+    .premiumSummery th {
+        font-size: 12px;
+    }
+
+    .premiumSummery td {
+        font-size: 12px;
+    }
+
+    .paymentBox {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .paymentDetails button {
+        width: 100%;
+    }
+
+    .payment-modal {
+        width: auto;
+    }
+
+    .MuiAccordionSummary-content.Mui-expanded {
+        margin: 10px 0 0 0 !important;
+    }
+
+    .MuiButtonBase-root-MuiAccordionSummary-root.Mui-expanded {
+        min-height: auto !important;
+    }
+
+
+}
+.paymentBox.active {
+    border-color: #ee1c25;
+}
+
+@media only screen and (max-width:551px) {
+    .premiumDetails .sumInsuredTab {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width:480px) {}

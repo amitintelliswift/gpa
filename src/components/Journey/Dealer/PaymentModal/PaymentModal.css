@@ -1,0 +1,178 @@
+.modal.show {
+    display: block;
+    opacity: 1;
+    -webkit-transition: all .25s linear;
+    -o-transition: all .25s linear;
+    transition: all .25s linear;
+    transform: scale(1);
+}
+
+.fade {
+    -webkit-transition: all .25s linear;
+    -o-transition: all .25s linear;
+    transition: all .25s linear;
+}
+
+.modal-backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1050;
+    width: 100vw;
+    height: 100vh;
+    background-color: #000;
+}
+
+.modal-dialog-centered {
+    display: flex;
+    align-items: center;
+    min-height: calc(100% - 1rem);
+}
+
+.modal-backdrop.show {
+    opacity: 0.65;
+}
+
+.modal-dialog {
+    height: 80% !important;
+    padding-top: 10%;
+}
+
+.modal-content {
+    /* height: 100% !important; */
+    overflow: visible;
+}
+
+.modal-body {
+    height: 80%;
+    overflow: auto;
+}
+
+.modal-header {
+    height: 48px;
+    background: #ECECEC;
+}
+
+button.close {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    line-height: 0;
+    height: 20px;
+    width: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-title {
+    font-size: 14px;
+    font-weight: bold;
+    color: #010101;
+}
+
+.modalList {
+    margin: 0;
+    padding: 0;
+}
+
+.modalList li {
+    list-style-type: none;
+    height: 40px;
+    text-align: left;
+    border-bottom: 1px solid #ECECEC;
+    padding: 0 15px;
+}
+
+.modalList li button {
+    height: 40px;
+    padding: 0;
+    margin: 0;
+    outline: none;
+    cursor: pointer;
+    border: 0;
+    background-color: transparent;
+    letter-spacing: 0px;
+    color: #101010;
+    opacity: 1;
+    display: flex;
+    font-size: 14px;
+    font-weight: normal;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.modalList li:last-child {
+    border-bottom: 0;
+}
+
+
+.payment-modal {
+    width: 400px;
+}
+
+.payment-modal-title {
+    letter-spacing: 0px;
+    color: #101010;
+    opacity: 1;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.payment-modal-subtitle {
+    letter-spacing: 0px;
+    color: #6F6F6F;
+    opacity: 1;
+    font-size: 15px;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+
+.otpField {
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.dont-receive a {
+    text-decoration: underline;
+    color: #6F6F6F;
+    letter-spacing: 0px;
+    color: #6F6F6F;
+    opacity: 1;
+    font-size: 13px;
+}
+.modal-footer {
+    border-top: 0;
+}
+
+.otpField .eyeIcon {
+    outline: none;
+    margin: 0;
+    padding: 0;
+    background: none;
+    border: 0;
+    cursor: pointer;
+    color: #6F6F6F;
+    font-size: 14px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 18px;
+    right: 15px;
+}
+.otpField .eyeIcon svg{
+    color: #9F9F9F;
+    font-size: 16px;
+}
+.otpField .eyeIcon span {
+    font-size: 14px;
+    margin-left: 5px;
+}
+.otpField input {
+    padding-right: 180px;
+}
